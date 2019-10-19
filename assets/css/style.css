@@ -1,0 +1,249 @@
+/* --------------------test carousel------------- */
+#regbutton{
+   z-index: 2;
+   top:1.8rem;
+   width: 170px;
+   padding-bottom:28px;
+   color: white;
+   /* background: linear-gradient(0deg, rgba(17,120,144,1) 15%, rgba(26,107,125,1) 32%, rgba(13,80,96,1) 61%, rgba(11,61,73,1) 100%) !important; */
+   font-size: 1rem;
+   position: relative;
+
+}
+#regbutton:hover{ 
+   color: black;
+}
+.lead{
+   font-weight: 400;
+   font-size:17px;
+   color:#373636;
+   margin-top: 10px;
+}
+
+.MultiCarousel { float: left; width: 100%; position:relative; overflow: hidden; margin-left: 18px;}
+   .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; }
+       .MultiCarousel .MultiCarousel-inner .item { float: left;}
+       .MultiCarousel .MultiCarousel-inner .item > div {
+            text-align: center; 
+             margin:10px; 
+             background:white; 
+             color:#17768c;
+             font-size: 12px;
+          cursor: pointer; 
+          
+           }
+           
+
+   .MultiCarousel .leftLst { 
+       position:relative;
+      background-color:white !important;
+      color:#17768c !important;
+      margin:0px;
+      float: right;
+      border-top-left-radius:50%;
+      border-bottom-left-radius: 50%;
+      border-top-right-radius:5%;
+      border-bottom-right-radius:5%;
+      padding: 8px;
+      width:25px;
+      height:25px;
+      font-size: 1rem;
+      line-height: 0.3;
+      margin-bottom: 10px;
+      }
+      .MultiCarousel .rightLst{
+         position:relative; 
+         border-top-right-radius:50%;
+         border-bottom-right-radius: 50%;
+         border-top-left-radius:5%;
+         border-bottom-left-radius:5%;
+         padding: 8px;
+         background-color:white !important;
+         color:#17768c !important;
+         margin:0px;
+         float: right;
+         width:25px;
+         height:25px;
+         font-size: 1rem;
+         line-height: 0.4;
+         margin-bottom: 10px;
+         margin-right: 10px;
+
+      }
+      
+
+   
+       .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc !important; }
+
+       .pad15:hover{
+           
+          
+           border-radius: 5px;
+           box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+           transition: opacity 0.3s ease-in-out;
+       }
+
+
+
+
+/* ---------------/test--------------- */
+
+
+.buttongroupLast{
+   /* top: -1.9em; */
+   bottom: -2em;
+   z-index: 1;
+   position: relative;
+   font-size: 20px;
+   font-weight: normal;
+
+}
+.saveReg,.backReg{
+   width: 150px;
+   background: linear-gradient(0deg, rgba(17,120,144,1) 15%, rgba(26,107,125,1) 32%, rgba(13,80,96,1) 61%, rgba(11,61,73,1) 100%);
+   border-radius:20px;
+}
+.icontop{
+   z-index: 2;
+}
+.icontop:hover
+{
+/* text-shadow: 2px 2px 4px lightslategray; */
+text-shadow: 0 0 3px #17768c;
+}
+.icontop1:hover
+{
+/* text-shadow: 2px 2px 4px lightslategray; */
+text-shadow: 0 0 10px rgb(226, 226, 226);
+z-index: 2;
+color: #D2E4EA !important;
+}
+.icontop1
+{
+margin-top:10px; 
+}
+.card-header-heading {
+  
+   /* text-align: left; */
+   top: -1.9em;
+   box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+   border: 0;
+   padding-top:15px;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   background: whitesmoke;
+   z-index: 1;
+   position: relative;
+   border-radius: .25rem;
+   font-size: 20px;
+   font-weight: normal;
+   border-radius: 5px
+}
+
+
+
+.btn-outline-primary,.btn-outline-primary:hover{
+
+  
+
+   border-color:#17768c !important;
+   /* color:#17768c !important; */
+   color:#fff !important;
+   background-color: #17768c  !important;
+   font-size: 13px;
+   padding-top: 0px !important;
+   padding-bottom: 0px !important;
+   font-weight: 500;
+
+
+}
+.btn-light{
+   font-size: 13px;
+   padding-top: 0px !important;
+   padding-bottom: 0px !important; 
+   color:#17768c !important;
+   background-color: #fff !important;
+}
+.previous-step,.previous-step:hover{
+  color:#17768c !important; 
+   border-color:#17768c !important;
+   font-size: 13px;
+   padding-top: 0px !important;
+   padding-bottom: 0px !important;
+   
+}
+
+
+
+.md-form {
+  margin-bottom:0 !important;
+ margin-top: 0rem !important;
+}
+#cardhead{
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+  border: 0;
+  padding: .7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #17768c;
+  z-index: 1;
+  position: relative;
+  border-radius: .25rem;
+  color:white;
+  font-family: sans-serif;
+  font-size:18px;
+  padding-left: 10px
+}
+
+
+
+  
+ 
+  
+ 
+  
+ 
+  
+
+  /* ----- */
+  html,
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+   
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  [class*="_icon"]::after {
+   display: block;
+   font-size: 0.8rem;
+   text-align: center;
+  }
+
+  .first_icon::after {
+    content: "New Registration";
+  }
+  .second_icon::after {
+   content: "Patient List";
+ }
+ .third_icon::after {
+   content: "Start Registration";
+ }
+
+
+
+
+ .activeCard {
+   background: linear-gradient(0deg, rgba(17,120,144,1) 15%, rgba(26,107,125,1) 32%, rgba(13,80,96,1) 61%, rgba(11,61,73,1) 100%) !important;
+   box-shadow: 0px 15px 15px rgba(0,0,0,0.3) !important;
+   color:white !important;
+   font-weight:400 !important;
+ }
+
+ .activeCard p{ 
+    color:white !important;
+ }
+
+ .itemDiv {
+    display:none;
+ }
